@@ -1,0 +1,61 @@
+body
+{
+  background-color: #cbcdce !important;
+}
+.questioncart
+{
+  margin-top:6%;
+}
+ 
+.heading {
+  border-bottom:1px solid black;
+}
+ 
+.radio {
+  display: grid;
+  grid-template-columns: min-content auto;
+  grid-gap: 0.5em;
+}
+ 
+.radio__input input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+ 
+.score{
+  float: right;
+  color: red;
+}
+ 
+.instruction {
+  color: #fff;
+  background-color: #007bff;
+  font-size: large;
+  padding: 0.38em 1.25rem;
+}
+ 
+.option
+{
+  color: black;
+    border-bottom: 1px solid darkgray;
+    font-size: large;
+    line-height: 2.6;
+    padding: 0 1.25rem;
+}
+ 
+.card-body 
+{
+  padding: 1.25rem 0 !important;
+}
+ 
+h5.card-title {
+  padding: 0 1.25rem;
+}
+ 
+.start
+{
+  margin:4%;
+  margin-top:7%;
+  padding-top: 2.5rem !important;
+}
