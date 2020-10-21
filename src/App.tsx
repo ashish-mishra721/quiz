@@ -4,7 +4,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import quiz from './components/quiz/quiz'
 
-function App() {
+const  App = () => {
   return (
     <Router>
       <Switch>
